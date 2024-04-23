@@ -232,7 +232,6 @@ hr {
 }
 .contact-side h1{
   font-size: 88px;
-    /* margin-top: 100px; */
   margin-bottom: 20px;
 }
 .contact-side p{
@@ -306,6 +305,238 @@ footer{
   margin-top: 20px;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 374px){
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    
+  }
+  body{
+    width: 100%;
+    color: #fbfeeb;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    max-width: 100%;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    margin: 10px 0px 0px 0px;
+    margin-right: 0;
+  }
+  .nice , .Ibrahim{
+    font-size: 35px;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .profileimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -2;
+    background-image: url(./IMAGES/20240417_093801-removebg-preview\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 217px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .project-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .skillz{
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header h3{
+    color: #242424;
+    font-weight: 700;
+  }
+  .logos img{
+    margin-top: 10px;
+    margin-right: 0;
+    gap: 10px;
+    margin: 6px;
+  }
+  .hero-circle{
+    position: absolute;
+    right: 0;
+    top: 250px;
+    z-index: -1;
+    height: 100px;
+    width: 100px;
+  }
+  .hero-rings{
+    position: absolute;
+    left: 0;
+    translate: -75%;
+    z-index: -1;
+  }
+  .nice , .Ibrahim{
+    font-size: 35px;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .nice{
+    margin-top: 300px;
+    
+  }
+  .passionate{
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+   }
+  .profileimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -2;
+    background-image: url(./IMAGES/20240417_093801-removebg-preview\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 217px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .passionate{
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+   }
+  .contact-me{
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .greeting{
+    width: 100%;
+  }
+  .skills-title{
+    font-size: 32px;
+    font-weight: bold;
+  
+  }
+  .skill-progress{
+    font-size: 15px;
+  
+  }
+  .proj{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .proj h2{
+    font-size: 40px;
+  }
+  .proj a{
+    margin-top: 16px;
+  }
+  .sample h3{
+    font-size: 24px;
+  }
+  .hero-pattern2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  .project-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .contact-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contact-side h1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .contact-side p{
+    font-size: 16px;
+    margin-bottom: 10px;
+  
+  }
+  hr{
+    margin-top: 60px;
+  }
+  .gray-section{
+    padding: 10px;
+  }
+  .contact-form{
+    width: 100%;
+  }
+  .contact-form input{
+    border-bottom: 0.5px solid #494545;
+  }
+  .contact-form input::placeholder{
+    color: rgb(209, 197, 173);
+  }
+  .image-ring-bottom{
+    position: absolute;
+    left: 0;
+    translate: -70%;
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  footer h3{
+    font-size: 24px;
+    margin-bottom: 7px;
+  }
+  
+}
 @media only screen and (min-width: 375px){
   @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
   *{
@@ -330,17 +561,21 @@ footer{
   .full-section{
     padding: 0;
     margin: 10px;
+    margin-top: 0;
   }
   header{
-      /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
-      /* position: absolute; */
+    justify-content: center;
     top: 0px;
-      /* margin-bottom: 400px; */
     margin: 10px 0px 0px 0px;
     margin-right: 0;
+  }
+  .logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   header h3{
     color: #242424;
@@ -359,6 +594,9 @@ footer{
     z-index: -1;
     height: 100px;
     width: 100px;
+  }
+  hr{
+    margin-top: 60px;
   }
   .hero-rings{
     position: absolute;
@@ -825,6 +1063,27 @@ footer{
     padding-left: 0;
     font-size: 85px;
     margin-bottom: 90px;
+  }
+  .submit-button{
+    background: transparent;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 2px;
+    border: none;
+    border-bottom: 2px solid #42c09d;
+    padding-bottom: 5px;
+  }
+  .submit-button:hover{
+    cursor: pointer;
+    color: #42c09d;
+    font-size: 26.5px;
+    transition: ease-in 250ms;
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 
 
